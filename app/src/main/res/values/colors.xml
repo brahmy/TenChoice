@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        <color name="colorPrimary">#008577</color>
+        <color name="colorPrimaryDark">#00574B</color>
+        <color name="colorAccent">#D81B60</color>
+    -->
+
+    <!--
+        <color name="colorPrimary">#287833</color>
+        <color name="colorPrimaryDark">#287833</color>
+        <color name="colorAccent">#287833</color>
+    -->
+    <!--
+        <color name="colorPrimary">#311B92</color>
+        <color name="colorPrimaryDark">#311B92</color>
+        <color name="colorAccent">#311B92</color>
+    -->
+    <color name="colorPrimary">#A41733</color>
+    <color name="colorPrimaryDark">#A41733</color>
+    <color name="colorAccent">#A41733</color>
+
+
+    <color name="payment_details_bg">#1D4C78</color>
+    <color name="green">#287833</color>
+    <color name="purple">#311B92</color>
+    <color name="purple_deep">#4A148C</color>
+    <color name="milky_white">#FEFCFF</color>
+    <color name="red">#B71C1C</color>
+    <color name="pink">#880E4F</color>
+    <color name="blue">#880E4F</color>
+    <color name="cyan">#006064</color>
+    <color name="teal">#004D40</color>
+    <color name="lime">#827717</color>
+    <color name="amber">#FF6F00</color>
+    <color name="browen">#3E2723</color>
+    <color name="deep_orange">#BF360C</color>
+    <color name="gray">#263238</color>
+    <color name="button_bg">#DA7C3E</color>
+    <color name="splash_bg">#E0FDE9</color>
+    <color name="black">#000000</color>
+</resources>

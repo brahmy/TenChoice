@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:paddingBottom="20dp"
+        android:elevation="@dimen/margin_ten">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose Image"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textSize="25sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/id_custom_dialog_image_load_RG">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Camera"
+                android:textColor="@color/purple"
+                android:buttonTint="@color/purple"
+                android:id="@+id/id_custom_dialog_image_load_camera_RB" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textColor="@color/purple"
+                android:buttonTint="@color/purple"
+                android:text="Gallery"
+                android:id="@+id/id_custom_dialog_image_load_gallery_RB" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_size"
+            android:layout_marginTop="@dimen/thirty"
+            android:background="@drawable/button_border"
+            android:textColor="@android:color/white"
+            android:padding="5dp"
+            android:id="@+id/id_custom_dialog_image_load_cancel" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

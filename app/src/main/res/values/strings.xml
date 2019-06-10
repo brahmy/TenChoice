@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TenChoice</string>
+    <string name="action_settings">Settings</string>
+    <string name="rs">₨</string>
+</resources>

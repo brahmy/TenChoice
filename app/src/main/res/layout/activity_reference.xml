@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/milky_white">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:id="@+id/id_container_fragment" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/id_reference_RR_layout">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Reference Name"
+                    android:layout_marginTop="10dp"
+                    android:textColorHint="@android:color/black">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/margin_five"
+                        android:id="@+id/id_activity_reference_name_edt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_five"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/id_activity_reference_relation_spinner" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Reference Mobile Number"
+                    android:layout_marginTop="10dp"
+                    android:textColorHint="@android:color/black">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/margin_five"
+                        android:id="@+id/id_activity_reference_mobile_number_edt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Reference Address"
+                    android:layout_marginTop="10dp"
+                    android:textColorHint="@android:color/black">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/margin_five"
+                        android:id="@+id/id_activity_reference_address_edt" />
+                </android.support.design.widget.TextInputLayout>
+
+                <!--  <android.support.design.widget.TextInputLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="@dimen/thirty"
+                      android:hint="Reference Name"
+                      android:textColorHint="@color/purple">
+                      <EditText
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="@dimen/margin_five"
+                          android:id="@+id/id_activity_reference_name_two_edt"/>
+                  </android.support.design.widget.TextInputLayout>
+                  <Spinner
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:padding="@dimen/margin_five"
+                      android:layout_marginTop="10dp"
+                      android:id="@+id/id_activity_reference_relation_two_spinner"/>
+                  <android.support.design.widget.TextInputLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Reference Mobile Number"
+                      android:textColorHint="@color/purple"
+                      android:layout_marginTop="10dp">
+                      <EditText
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="@dimen/margin_five"
+                          android:id="@+id/id_activity_reference_mobile_number_two_edt"/>
+                  </android.support.design.widget.TextInputLayout>
+                  <android.support.design.widget.TextInputLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:hint="Reference Address"
+                      android:layout_marginTop="10dp"
+                      android:textColorHint="@color/purple">
+                      <EditText
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:padding="@dimen/margin_five"
+                          android:id="@+id/id_activity_reference_address_two_edt"/>
+                  </android.support.design.widget.TextInputLayout>
+          -->
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_border"
+            android:textColor="@color/milky_white"
+            android:textSize="@dimen/button_size"
+            android:id="@+id/id_activity_reference_submit_btn" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

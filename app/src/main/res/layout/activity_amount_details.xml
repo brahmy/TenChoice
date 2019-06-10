@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:id="@+id/id_amount_container_fragment" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:id="@+id/id_amount_layout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/curved_layout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amount"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/milky_white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:id="@+id/id_amount_details_LL">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3000"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:layout_weight="1"
+                        android:textColor="@color/milky_white"
+                        android:id="@+id/id_amount_details_amount_txtVW" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="15 Days"
+                        android:textColor="@color/milky_white"
+                        android:gravity="end"
+                        android:textSize="16sp"
+                        android:layout_weight="1"
+                        android:id="@+id/id_amount_details_days_txtVW" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Disbursal Amount"
+                        android:textColor="@color/milky_white"
+                        android:textSize="18sp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs"
+                            android:textColor="@color/milky_white"
+                            android:gravity="end"
+                            android:textSize="25sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/milky_white"
+                            android:textSize="25sp"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:id="@+id/id_amount_details_disbursal_amount_txtVW" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="6dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Active Loan"
+                            android:textSize="17sp"
+                            android:textColor="@android:color/black"
+                            android:layout_weight="0.8" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="end"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Rs"
+                                android:textColor="@android:color/black"
+                                android:gravity="end"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text=""
+                                android:textColor="@android:color/black"
+                                android:textSize="15sp"
+                                android:gravity="center"
+                                android:id="@+id/id_amount_details_active_amount_txtVW" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Processing fee (9%)"
+                                android:textColor="@android:color/black"
+                                android:textSize="17sp"
+                                android:layout_weight="0.8" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="270"
+                                android:textColor="@android:color/black"
+                                android:textSize="15sp"
+                                android:gravity="end"
+                                android:layout_weight="1"
+                                android:id="@+id/id_amount_details_processing_fee_txtVW" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Deducted from loan amount"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            android:layout_weight="0.8" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="GST (18%)"
+                                android:textColor="@android:color/black"
+                                android:textSize="17sp"
+                                android:layout_weight="0.8" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="48"
+                                android:textColor="@android:color/black"
+                                android:textSize="15sp"
+                                android:gravity="end"
+                                android:layout_weight="1"
+                                android:id="@+id/id_amount_details_gst_txtVW" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Deducted from processing fee"
+                            android:textColor="@android:color/black"
+                            android:textSize="12sp"
+                            android:layout_weight="0.8" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Total Interest (1.48%)"
+                                android:textSize="17sp"
+                                android:textColor="@android:color/black"
+                                android:layout_weight="0.8" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="44"
+                                android:textColor="@android:color/black"
+                                android:textSize="15sp"
+                                android:layout_weight="1"
+                                android:gravity="end"
+                                android:id="@+id/id_amount_details_total_interest_txtVW" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Annual Interest rate(36%)p.a"
+                            android:textSize="12sp"
+                            android:textColor="@android:color/black"
+                            android:id="@+id/id_amount_details_annual_interest_txtVW" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/black" />
+
+                    <!--
+                                        <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:padding="10dp"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Annual Interest (36%)"
+                                        android:textSize="20sp"
+                                        android:textColor="@android:color/black"
+                                        android:layout_weight="0.8"/>
+                                    <TextView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="36%"
+                                        android:textSize="16sp"
+                                        android:textColor="@android:color/black"
+                                        android:gravity="end"
+                                        android:layout_weight="1"
+                                        android:id="@+id/id_amount_details_annual_interest_txtVW"/>
+                                </LinearLayout>
+                                        <View
+                                            android:layout_width="match_parent"
+                                            android:layout_height="1dp"
+                                            android:background="@android:color/black"/>
+                    -->
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Get Your Money Now"
+            android:textAllCaps="false"
+            android:textColor="@color/milky_white"
+            android:background="@drawable/button_border"
+            android:textSize="@dimen/button_size"
+            android:id="@+id/id_activity_amount_details_btn" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
